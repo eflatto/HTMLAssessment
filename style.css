@@ -33,7 +33,7 @@ body {
       background-color: #eee;
     }
 
-    td {
+    td,thead {
       padding: 0.5em;
       border: 1px solid black;
     }
