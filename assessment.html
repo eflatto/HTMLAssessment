@@ -76,10 +76,10 @@
         <td>32</td>
       </tr>
     </tfoot>
-    
+
   </table>
   <h2>List</h2>
-  <img src="broncos.png" alt="Broncos logo" width="90" height="80">
+  <img src="broncos.png" alt="Broncos logo" width="120" height="70">
   <br>
   <ul>
     <li>
@@ -95,7 +95,7 @@
       </ol>
     </ul>
   </ul>
-  <img src="bears.png" alt="Bears logo" width="80" height="80">
+  <img src="bears.png" alt="Bears logo" width="90" height="85">
   <br>
   <ul>
     <li>
@@ -110,5 +110,51 @@
       </ol>
     </ul>
   </ul>
+  <h2>FORM</h2>
+  <form action="assessment.html" method="GET">
+    <div>
+      <label for="First">First:</label>
+      <input type="text" name="First" id="First" placeholder="First Name" required>
+      <label for="Last">Last:</label>
+      <input type="text" name="Last" id="Last" placeholder="Last Name" required>
+    </div>
+    <div>
+      <div>
+      Favorite Sport:
+      </div>
+      <select name="favoriteSport">
+        <option value="Soccer">Soccer</option>
+        <option value="Football">Football</option>
+        <option value="Basketball">Basketball</option>
+        <option value="Baseball">Baseball</option>
+      </select>
+    </div>
+    <div>
+      I have: <input type="checkbox" name="Attended" id="Attended">
+      <label for="Attended">Attended</label>
+      <input type="checkbox" name="Played" id="Played">
+      <label for="Played">Played</label>
+      <input type="checkbox" name="Coached" id="Coached">
+      <label for="Coached">Coached</label>
+      <input type="checkbox" name="Bet on" id="Bet on">
+      <label for="Bet on">Bet on</label>
+      <div>
+      this sport.
+      </div>
+    </div>
+    <div>
+      <label>For this sport I prefer the:</label>
+      <input type="radio" name="Amateur" id="Amateur">
+      <label for="Amateur">Amateur</label>
+      <input type="radio" name="College" id="College">
+      <label for="College">College</label>
+      <input type="radio" name="Professional" id="Professional">
+      <label for="Professional">Professional</label>
+    </div>
+    <div>
+      <button type="submit">Submit Query</button>
+    </div>
+  </form>
+
 </body>
 </html>
